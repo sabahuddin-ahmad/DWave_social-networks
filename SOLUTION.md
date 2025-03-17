@@ -188,9 +188,53 @@ Open up the `friends_enemies_hybrid.py` file. You will need to
 Hint:  
 * Use random.choice() to randomly assign a friendly or hostile relationship to an edge
 
-### Solution
+### Solution `friends_enemies_hybrid_solution.py`
 
+For a 100 node graph, the terminal output is as follows:
 
+            Set       Friendly    Hostile    
+            
+              0            446      278      
+              1            435      311      
+         0 -> 1            608      883   
+
+Problem
+
+![Hybrid Problem Graph](solution_images/hybrid_problem_graph.png "Hybrid Problem Graph")
+
+Solution
+
+![Hybrid Solution Graph](solution_images/hybrid_solution_graph.png "Hybrid Solution Graph")
+
+Partitioned Solution
+
+![Partitioned Hybrid Solution Graph](solution_images/partitioned_hybrid_solution_graph.png "Partitioned Hybrid Solution Graph")
+
+---
+
+For a 400 node graph, the terminal output is as follows:
+
+            Set       Friendly    Hostile    
+
+              0           6170     5051      
+              1           6869     5755      
+         0 -> 1          10775     13130 
+
+Problem
+
+![Hybrid Problem Graph](solution_images/hybrid_problem_graph_1.png "Hybrid Problem Graph")
+
+Solution
+
+![Hybrid Solution Graph](solution_images/hybrid_solution_graph_1.png "Hybrid Solution Graph")
+
+Partitioned Solution
+
+![Partitioned Hybrid Solution Graph](solution_images/partitioned_hybrid_solution_graph_1.png "Partitioned Hybrid Solution Graph")
+
+NOTE: For 400 nodes, QPU takes a lot more time than Hybrid solver. I wasn't able to get any results for 400 nodes graph via a QPU. 
+
+---
 
 #### Resources
 1. Ocean documentation: https://docs.ocean.dwavesys.com/en/latest/index.html
