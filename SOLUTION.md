@@ -71,9 +71,15 @@ For a 5 node graph, the terminal output is as follows:
               1              2       0       
          0 -> 1              0       3    
 
+Problem
+
 ![QPU Problem Graph](solution_images/qpu_problem_graph.png "QPU Problem Graph")
 
+Solution
+
 ![QPU Solution Graph](solution_images/qpu_solution_graph.png "QPU Solution Graph")
+
+Partitioned Solution
 
 ![Partitioned QPU Solution Graph](solution_images/partitioned_qpu_solution_graph.png "Partitioned QPU Solution Graph")
 
@@ -87,9 +93,15 @@ For a 8 node graph, the terminal output is as follows:
               1              4       2       
          0 -> 1              1       8        
 
+Problem
+
 ![QPU Problem Graph](solution_images/qpu_problem_graph_2.png "QPU Problem Graph")
 
+Solution
+
 ![QPU Solution Graph](solution_images/qpu_solution_graph_2.png "QPU Solution Graph")
+
+Partitioned Solution
 
 ![Partitioned QPU Solution Graph](solution_images/partitioned_qpu_solution_graph_2.png "Partitioned QPU Solution Graph")
 
@@ -103,9 +115,15 @@ For a 10 node graph, the terminal output is as follows:
               1              3       3       
          0 -> 1              2      13           
 
+Problem
+
 ![QPU Problem Graph](solution_images/qpu_problem_graph_1.png "QPU Problem Graph")
 
+Solution
+
 ![QPU Solution Graph](solution_images/qpu_solution_graph_1.png "QPU Solution Graph")
+
+Partitioned Solution
 
 ![Partitioned QPU Solution Graph](solution_images/partitioned_qpu_solution_graph_1.png "Partitioned QPU Solution Graph")
 
@@ -119,9 +137,15 @@ For a 20 node graph, the terminal output is as follows:
               1             21       5       
          0 -> 1             19      45           
 
+Problem
+
 ![QPU Problem Graph](solution_images/qpu_problem_graph_3.png "QPU Problem Graph")
 
+Solution
+
 ![QPU Solution Graph](solution_images/qpu_solution_graph_3.png "QPU Solution Graph")
+
+Partitioned Solution
 
 ![Partitioned QPU Solution Graph](solution_images/partitioned_qpu_solution_graph_3.png "Partitioned QPU Solution Graph")
 
@@ -135,14 +159,19 @@ For a 100 node graph, the terminal output is as follows:
               1            434      288      
          0 -> 1            604      949            
 
+Problem
+
 ![QPU Problem Graph](solution_images/qpu_problem_graph_4.png "QPU Problem Graph")
 
+Solution
+
 ![QPU Solution Graph](solution_images/qpu_solution_graph_4.png "QPU Solution Graph")
+
+Partitioned Solution
 
 ![Partitioned QPU Solution Graph](solution_images/partitioned_qpu_solution_graph_4.png "Partitioned QPU Solution Graph")
 
 ---
-
     
 ### Exercise 2:  
 In this exercise you will build a BQM for the friends and enemies problem on a random graph.
